@@ -2,6 +2,9 @@
 
 ✨ Welcome to the Trello Board Multi-Agent Analyzer Special Edition! ✨
 
+![Trello Board Multi-Agent Analyzer](cover_pic.png)
+
+
 This application allows you to analyze your Trello board using a multi-agent system powered by CrewAI. Configure your API keys and get insights into your Trello boards like never before.
 
 ## Features
