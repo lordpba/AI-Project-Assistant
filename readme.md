@@ -6,9 +6,7 @@
   <img src="assets/trello_analyzer.png" alt="Trello Board Multi-Agent Analyzer" width="500">
 </p>
 
-<p align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/kEC4s7SZS-M" frameborder="0" allowfullscreen></iframe>
-</p>
+see the video: https://www.youtube.com/watch?v=kEC4s7SZS-M 
 
 This application allows you to analyze your Trello board using a multi-agent system powered by CrewAI. Configure your API keys and get insights into your Trello boards like never before.
 
