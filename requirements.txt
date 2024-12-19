@@ -1,0 +1,7 @@
+streamlit
+python-dotenv
+pyyaml
+requests
+pandas
+crewai
+crewai-tools
