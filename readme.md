@@ -6,7 +6,6 @@
   <img src="assets/trello_analyzer.png" alt="Trello Board Multi-Agent Analyzer" width="500">
 </p>
 
-// Aggiungi il video qui sotto
 <p align="center">
   <video width="500" controls>
     <source src="assets/demo_video.mp4" type="video/mp4">
