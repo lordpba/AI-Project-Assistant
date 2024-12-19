@@ -11,10 +11,8 @@ import logging
 
 # -- Title and Description --
 st.title("✨ Trello Board Multi-Agent Analyzer ✨")
-st.markdown("""
-🔍 Analyze your Trello board using a multi-agent system powered by CrewAI.
-⚙️ Configure your API keys below to get started.
-""")
+st.markdown("""🔍 Analyze your Trello board using a multi-agent system powered by CrewAI""")
+st.markdown("🔗 Configure your API keys to start, then click on Analyze Board, the system will check and suggest")
 
 # -- Sidebar for API Keys --
 st.sidebar.header("🔑 API Configuration")
@@ -24,8 +22,8 @@ st.sidebar.markdown("🔗 https://github.com/lordpba/AI-Project-Assistant")
 # Input fields without saving capabilities
 trello_api_key = st.sidebar.text_input("🔒 Trello API Key", type="password")
 trello_token = st.sidebar.text_input("🔒 Trello Token", type="password")
-openai_api_key = st.sidebar.text_input("🔒 OpenAI API Key", type="password")
 trello_board_id = st.sidebar.text_input("🗂️ Trello Board ID")
+openai_api_key = st.sidebar.text_input("🔒 OpenAI API Key (It uses GPT-4o-mini)", type="password")
 
 # -- Load YAML Configurations --
 def load_yaml(file_path):
