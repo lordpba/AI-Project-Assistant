@@ -8,6 +8,8 @@
 
 This application allows you to analyze your Trello board using a multi-agent system powered by CrewAI. Configure your API keys and get insights into your Trello boards like never before.
 
+You can try quickly here --> https://8501-01jffe79g8564mbf4201va93c4.cloudspaces.litng.ai/
+
 ## Features
 
 - 🔍 Analyze your Trello board with advanced multi-agent systems.
