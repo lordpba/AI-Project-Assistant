@@ -1,4 +1,4 @@
-# Trello Board Multi-Agent Analyzer Special Edition
+# Trello Board AI Multi-Agent Analyzer
 
 ✨ Welcome to the Trello Board Multi-Agent Analyzer Special Edition! ✨
 
