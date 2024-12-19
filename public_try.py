@@ -18,6 +18,8 @@ st.markdown("""
 
 # -- Sidebar for API Keys --
 st.sidebar.header("🔑 API Configuration")
+st.sidebar.markdown("""Beware, these API keys are sensitive information. I do not save anything! If you don't trust me, you can run this code locally.""")
+st.sidebar.markdown("🔗 https://github.com/lordpba/AI-Project-Assistant")
 
 # Input fields without saving capabilities
 trello_api_key = st.sidebar.text_input("🔒 Trello API Key", type="password")
@@ -30,8 +32,8 @@ def load_yaml(file_path):
     with open(file_path, 'r') as file:
         return yaml.safe_load(file)
 
-agents_config = load_yaml('config/agents.yaml')
-tasks_config = load_yaml('config/tasks.yaml')
+agents_config = load_yaml('AI-Project-Assistant/config/agents.yaml')
+tasks_config = load_yaml('AI-Project-Assistant/config/tasks.yaml')
 
 # -- Custom Tools --
 class BoardDataFetcherTool(BaseTool):

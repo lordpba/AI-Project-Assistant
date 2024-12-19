@@ -1,6 +1,6 @@
 # Trello Board AI Multi-Agent Analyzer
 
-✨ Welcome to the Trello Board Multi-Agent Analyzer Special Edition! ✨
+✨ Welcome to the Trello Board Multi-Agent Analyzer ✨
 
 <p align="center">
   <img src="assets/trello_analyzer.png" alt="Trello Board Multi-Agent Analyzer" width="500">
